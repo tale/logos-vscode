@@ -1,0 +1,33 @@
+{
+	"fileTypes": [
+		"x",
+		"xm",
+		"xi",
+		"xmi"
+	],
+	"name": "Logos",
+	"patterns": [
+		{
+			"match": "%(init|hookf|hook|subclass|group|class|new|ctor|dtor|end|config|orig|log|property|c)",
+			"name": "keyword.source.logos"
+		},
+		{
+			"match": "%hook *"
+		},
+		{
+			"captures": {
+				"1": {
+					"name": "keyword.source.logos"
+				}
+			},
+			"match": "%c([A-Za-z$_]+)"
+		},
+		{
+			"include": "source.objc"
+		},
+		{
+			"include": "source.c++"
+		}
+	],
+	"scopeName": "source.logos"
+}
