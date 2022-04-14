@@ -1,0 +1,81 @@
+{
+	"name": "logos-vscode",
+	"version": "1.0.0",
+	"publisher": "tale",
+	"engines": {
+		"vscode": "^1.66.0"
+	},
+	"license": "MIT",
+	"displayName": "Logos for VS Code",
+	"description": "Syntax and rich editor support for Logos in VS Code",
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tale/logos-vscode.git"
+	},
+	"keywords": [
+		"objective-c",
+		"objective-cpp",
+		"logos",
+		"jailbreak",
+		"tweaks",
+		"theos",
+		"dragon",
+		"monkeydev",
+		"xcode"
+	],
+	"galleryBanner": {
+		"color": "#44275c",
+		"theme": "dark"
+	},
+	"main": "./dist/extension.js",
+	"browser": "./dist/extension.js",
+	"contributes": {
+		"languages": [
+			{
+				"id": "logos",
+				"aliases": [
+					"Logos",
+					"logos"
+				],
+				"extensions": [
+					".x",
+					".xm",
+					".xi",
+					".xmi"
+				],
+				"configuration": "./assets/language-configuration.json",
+				"icon": {
+					"dark": "./assets/logos.svg",
+					"light": "./assets/logos.svg"
+				}
+			}
+		],
+		"grammars": [
+			{
+				"language": "logos",
+				"scopeName": "source.logos",
+				"path": "./assets/logos.tmLanguage.json"
+			}
+		]
+	},
+	"activationEvents": [
+		"onLanguage:logos"
+	],
+	"qna": false,
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"icon": "./assets/logos.png",
+	"scripts": {
+		"watch": "tsc --watch"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.66.0",
+		"typescript": "^4.6.3"
+	}
+}

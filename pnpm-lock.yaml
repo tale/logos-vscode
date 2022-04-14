@@ -1,0 +1,21 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@types/vscode': ^1.66.0
+  typescript: ^4.6.3
+
+devDependencies:
+  '@types/vscode': 1.66.0
+  typescript: 4.6.3
+
+packages:
+
+  /@types/vscode/1.66.0:
+    resolution: {integrity: sha512-ZfJck4M7nrGasfs4A4YbUoxis3Vu24cETw3DERsNYtDZmYSYtk6ljKexKFKhImO/ZmY6ZMsmegu2FPkXoUFImA==}
+    dev: true
+
+  /typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
