@@ -70,7 +70,7 @@
 		"ui",
 		"workspace"
 	],
-	"icon": "./assets/logos.png",
+	"icon": "./assets/icon.png",
 	"scripts": {
 		"watch": "tsc --watch"
 	},
