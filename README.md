@@ -4,6 +4,8 @@
 
 A Visual Studio Code extension that adds syntax and rich sense support for the [Logos Preprocessor Language](https://github.com/theos/logos).
 
+<img src="assets/preview.png" alt="Logos Preview" width="400"/>
+
 ## Features
 - Logos Syntax Highlighting
 - Completion support for snippets based on language keywords
