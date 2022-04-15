@@ -70,9 +70,10 @@
 		"ui",
 		"workspace"
 	],
-	"icon": "./assets/icon.png",
+	"icon": "assets/icon.png",
 	"scripts": {
-		"watch": "tsc --watch"
+		"watch": "tsc --watch",
+		"vscode:prepublish": "tsc"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.66.0",
